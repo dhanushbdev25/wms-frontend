@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="900" height="300" viewBox="0 0 900 300"
+     role="img" aria-labelledby="title desc">
+  <title id="title">WMS Logo</title>
+  <desc id="desc">Icon plus WMS wordmark. Icon represents a minimal warehouse box mark.</desc>
+
+  <style>
+    :root {
+      --primary: #F57C00;
+      --accent: #E65100;
+      --neutral: #111;
+    }
+    .icon-stroke {
+      stroke: var(--primary);
+      stroke-width: 12;
+      stroke-linejoin: round;
+      stroke-linecap: round;
+      fill: none;
+    }
+    .wordmark {
+      font-family: "Inter","Helvetica Neue",Arial,sans-serif;
+      font-weight: 800;
+      fill: var(--primary);
+      letter-spacing: 8px;
+    }
+  </style>
+
+  <!-- Icon: minimal warehouse box outline -->
+  <g transform="translate(130,150) scale(1.25)">
+    <path class="icon-stroke" d="M-60 -40 L0 -80 L60 -40 L60 40 L0 80 L-60 40 Z"/>
+    <line class="icon-stroke" x1="-60" y1="-40" x2="60" y2="40"/>
+    <line class="icon-stroke" x1="60" y1="-40" x2="-60" y2="40"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="500" y="160"
+        dominant-baseline="middle"
+        text-anchor="middle"
+        class="wordmark"
+        style="font-size:150px;">
+    WMS
+  </text>
+</svg>

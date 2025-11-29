@@ -1,14 +1,42 @@
-.scrollbar {
-	background-color: #F5F5F5;
-	float: left;
-	height: 300px;
-	margin-bottom: 25px;
-	margin-left: 22px;
-	margin-top: 40px;
-	width: 65px;
-	overflow-y: scroll;
+.green-box {
+  width: 12px;
+  height: 12px;
+  background-color: #138469;
+  border-radius: 40%; /* This makes the element a circle */
+}
+.green-dot {
+  width: 12px;
+  height: 12px;
+  background-color: #14b8a6;
+  border-radius: 40%; /* This makes the element a circle */
+}
+.blue-dot {
+  width: 12px;
+  height: 12px;
+  background-color: #F57C00;
+  border-radius: 50%; /* This makes the element a circle */
+}
+.orange-dot {
+  width: 12px;
+  height: 12px;
+  background-color: #f59e0b;
+  border-radius: 50%; /* This makes the element a circle */
+}
+.yellow-dot {
+  width: 12px;
+  height: 12px;
+  background-color: #facc15;
+  border-radius: 50%; /* This makes the element a circle */
 }
 
-.force-overflow {
-	min-height: 450px;
+.pinned-row {
+  position: sticky;
+  top: 0;
+  background-color: #E6E6E6;
+  z-index: 10;
+  font-weight: 700;
+}
+
+.swal-text-left ol {
+  text-align: left;
 }
