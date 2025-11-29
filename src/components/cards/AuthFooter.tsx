@@ -34,7 +34,6 @@ const AuthFooter = () => {
             variant="subtitle2"
             color="secondary"
             component={Link}
-            href="https://metayb.ai/contact-us/"
             target="_blank"
             underline="hover"
           >
